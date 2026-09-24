@@ -1,4 +1,3 @@
-
 :root {
     --verde-principal: #07d412;
     --verde-claro: #a5d6a7;
@@ -10,7 +9,12 @@
     height: 500px;
     object-fit: contain;
     background-color: var(--gris-fondo);
-   
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) grayscale(100);
 }
 
 @media (max-width: 768px) {
@@ -23,7 +27,7 @@
 .card {
     border: currentColor;
     border-radius: 12px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease ;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 
@@ -50,4 +54,3 @@
 .navbar-brand {
     letter-spacing: 1px;
 }
-
